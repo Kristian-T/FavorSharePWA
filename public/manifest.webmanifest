@@ -1,6 +1,8 @@
 {
   "name": "FavorSharePWA",
   "short_name": "FavorSharePWA",
+  "description": "Favor Share",
+  "scope": "/",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#3E4EB8",
