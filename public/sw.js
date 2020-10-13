@@ -1,4 +1,4 @@
-var dataCacheName = 'FavorSharePWA';
+var dataCacheName = 'FavorSharePWAData';
 var cacheName = 'FavorSharePWA';
 //TODO: which files should be cached? Add them here:
 var filesToCache = [
@@ -40,4 +40,3 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
-//St
