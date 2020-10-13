@@ -1,7 +1,10 @@
-var dataCacheName = 'FavorSharePWAData';
+var dataCacheName = 'FavorSharePWA';
 var cacheName = 'FavorSharePWA';
+//TODO: which files should be cached? Add them here:
 var filesToCache = [
-    '/FavorSharePWA/public/'
+    '/FavorSharePWA/public/index.html/',
+    '/Exercise302/public/scripts/',
+    '/Exercise302/images/'
 ];
 
 self.addEventListener('install', function(e) {
@@ -37,3 +40,4 @@ self.addEventListener('fetch', function(event) {
         })
     );
 });
+//St
